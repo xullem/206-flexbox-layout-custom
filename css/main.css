@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  background: #404E5C;
+}
+
+body {
+  color: #fff;
+  height: 100%;
+
+
+
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*width: 28%;*/
+}
+
+.tag {
+  display: flex;
+  font-size: 5em;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 600px;
+  width: 100%;
+  background: url("../img/brain-hero-full.png") no-repeat;
+  background-color: #07FF7B;
+  background-size: cover;
+  font-family: 'Fredoka One', cursive;
+  line-height: 1em;
+  padding: 0;
+  margin: 0 auto;
+}
+header, main, footer {
+  display: flex;
+  width: 100%;
+
+}
+
+#div-1, #div-2, #div-3 {
+
+padding: 1em;
+}
+
+@media all and (min-width: 1200px) {
+    .flex-items{
+      flex-basis: 30%;
+    }
+}
+
+header {
+
+}
+
+h1, p {
+  padding: .2em;
+  font-size: 1.3em;
+}
+
+h2 {
+  padding-bottom: 0;
+  margin: 5px;
+}
+
+h2 span {
+  color: #FF0083;
+}
